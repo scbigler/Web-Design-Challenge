@@ -1,0 +1,121 @@
+
+    <!doctype html>
+    <html lang="en">
+      <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+        <title>Max Temperature</title>
+      </head>
+      <body>
+    
+        <style>
+          .my-custom-container
+          {background-color: rgb(236, 233, 229);}
+          .my-text-color
+          {
+            color:rgb(91, 205, 184)
+          }
+    
+        </style>
+    
+        <nav class="navbar navbar-expand-md bg-light navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand mb-0 h1 fs-5 text-light" style="background-color: rgb(91, 205, 184)"  href="../index.html" target="_self">LATITUDE</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+    
+                </button>
+                <div class="collapse navbar-collapse" id="navmenu">
+                 <ul class="navbar-nav ms-auto">
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Plots
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/Web-Design-Challenge/visualizations/temp.html" target="_self">Max Temperature</a></li>
+                    <li><a class="dropdown-item" href="/Web-Design-Challenge/visualizations/humidity.html" target="_self">Humidity</a></li>
+                    <li><a class="dropdown-item" href="/Web-Design-Challenge/visualizations/cloudy.html" target="_self">Cloudiness</a></li>
+                    <li><a class="dropdown-item" href="/Web-Design-Challenge/visualizations/wind.html" target="_self">Wind Speed</a></li>
+                  </ul>
+                </li>
+                    <li class="nav-item">
+                      <a href="/Web-Design-Challenge/visualizations/comparison.html" class="nav-link" target="_self">Comparison</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#data" class="nav-link">Data</a>
+                    </li>
+                 </ul>   
+                </div>
+            </div>
+            
+        </nav>
+        <div class="container-fluid">
+          <div class="container-fluid my-custom-container">
+            <div class="row p-5">
+              <div class="col-sm-7"><div class="p-5 bg-light">
+                <div class="text-center my-text-color"><H1>vs. Max Temperature</H1></div>
+                <img src="../assets/images/lat-temp.png" class="float-start imageshadow p-3"  alt="Latitude vs X">
+               <div class="my-text-color"> This chart shows a curvilinear relationship. Both northern and sothern hemispheres are
+                                           included, and highest temeratures tend to come at or near 0 degrees latitiude (near the
+                                            equator). The farther south or north the cities the more the temperatures go down, which
+                                             is what we would expect. A curvilinear relationship rules out effective use of linear 
+                                             regression for analysis.</div></div>
+              </div>
+                <div class="col-sm-5"><div class="p-5 bg-light">
+                  
+                  <div class="text-center my-text-color"><H2>Visualizations</H2>
+                    <div class="container">
+                      <div class="row p-3">
+                        <div class="col-sm-6">
+                          <a href="temp.html"><img src="../assets/images/lat-temp.png" class="img-fluid img-thumbnail" alt="Latitude vs Temperature"></a>
+                        </div>
+                        <div class="col-sm-6">
+                          <a href="humidity.html" target="_self"><img src="../assets/images/lat-humidity.png" class="img-fluid img-thumbnail" alt="Latitude vs Humidity"></a>
+                        </div>
+                      </div>
+                      <div class="row p-3">
+                        <div class="col-sm-6">
+                          <a href="cloudy.html"><img src="../assets/images/lat-cloudiness.png" class="img-fluid img-thumbnail" alt="Latitude vs Cloudiness"></a>
+                        </div>
+                        <div class="col-sm-6">
+                          <a href="wind.html"><img src="../assets/images/lat-windspeed.png" class="img-fluid img-thumbnail" alt="Latitude vs Wind Speed"></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div> 
+                 
+                
+                </div>
+    
+              </div>
+        </div>
+    
+    
+    
+    
+    
+        </div>
+        
+        <!-- Optional JavaScript; choose one of the two! -->
+    
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        -->
+      </body>
+    </html>
+    
+     
