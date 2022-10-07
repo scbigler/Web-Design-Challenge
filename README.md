@@ -1,1 +1,3 @@
 # Web-Design-Challenge
+
+In this challenge, current maximum daily temperature, humidity, cloudiness, and wind speed readings were pulled through a weather website api in order to create scatterplot visualizations to test whether higher maximum temperatures occur closer to the equator than they do farther from it. To accomplish this, a list of 1500 randomly selected cities were selected around the world. The cities on that list were fed into a GET request for the weather information via api call. The goal was to return at least 500 cities, since it is assumed that not all 1500 random cities will have availible weather information on the openweather.com website. Click on individul visualizations to view information.
